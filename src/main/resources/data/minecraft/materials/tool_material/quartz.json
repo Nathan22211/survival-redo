@@ -1,0 +1,16 @@
+{
+  "miningLevel": 2,
+  "durability": 850,
+  "miningSpeed": 8.0,
+  "damage": 7.0,
+  "attackSpeedBonus": 0.1,
+  "enchantability": 12,
+  "toolHeadColor": 14211288,
+  "materialCategory": "gem",
+  "enchantmentAffinities": {
+    "minecraft:sharpness": -10,
+    "minecraft:sweeping": 10,
+    "minecraft:efficiency": 100,
+    "minecraft:unbreaking": 30
+  }
+}

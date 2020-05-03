@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "A A",
+        "DDD"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "A": {
+            "item": "minecraft:andesite"
+        },
+        "D": {
+            "item": "minecraft:diorite"
+        }
+    },
+    "result": {
+        "item": "minecraft:furnace",
+        "count": 1
+    }
+}

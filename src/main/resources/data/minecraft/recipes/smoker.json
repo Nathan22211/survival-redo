@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#/#",
+        "L L",
+        "L#L"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "L": {
+            "tag": "minecraft:logs"
+        }
+    },
+    "result": {
+        "item": "minecraft:smoker",
+        "count": 1
+    }
+}

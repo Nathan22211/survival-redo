@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "SCS"
+    ],
+    "key": {
+        "#": {
+            "item": "survival:saw",
+        "S": {
+            "tag": "survival:stripped_logs"
+        },
+        "C": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:stonecutter",
+        "count": 1
+    }
+}

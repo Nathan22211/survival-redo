@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "survival:random/flint"
+				
+			}
+		}
+	},
+	"rewards": {
+		"function": "survival:recipes_random/flint"
+	}
+}

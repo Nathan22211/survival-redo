@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#F",
+        "/#"
+    ],
+    "key": {
+        "#": {
+            "tag": "survival:stripped_logs"
+        },
+        "F": {
+            "item": "minecraft:flint"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:crafting_table",
+        "count": 1
+    }
+}

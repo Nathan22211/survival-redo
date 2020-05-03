@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "survival:random/acacia_planks"
+				
+			}
+		}
+	},
+	"rewards": {
+		"function": "survival:recipes_random/acacia_planks"
+	}
+}

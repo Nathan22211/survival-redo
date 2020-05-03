@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stripped_crimson_stem"
+        },
+        {
+            "item": "minecraft:wooden_axe",
+            "remainder": {
+                "item": "minecraft:wooden_axe",
+                "data": {
+                    "Damage": "$ i1.Damage + 1"
+                }
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:crimson_planks",
+        "count": 2
+    }
+}

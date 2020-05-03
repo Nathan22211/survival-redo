@@ -1,0 +1,14 @@
+{
+    "durabilityFactor": 101,
+    "armor": 20,
+    "armorToughness": 3,
+    "enchantability": 15,
+    "armorColor": 6705217,
+    "materialCategory": "metal",
+    "enchantmentAffinities": {
+      "minecraft:fire_protection": 500,
+      "minecraft:unbreaking": -50,
+      "minecraft:thorns": 10
+    }
+}
+  

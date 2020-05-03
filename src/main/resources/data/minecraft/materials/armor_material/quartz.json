@@ -1,0 +1,12 @@
+{
+  "durabilityFactor": 14,
+  "armor": 18,
+  "armorToughness": 1,
+  "enchantability": 12,
+  "armorColor": 14000000,
+  "materialCategory": "gem",
+  "enchantmentAffinities": {
+    "minecraft:fire_protection": 50,
+    "minecraft:unbreaking": 30
+  }
+}

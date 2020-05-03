@@ -1,0 +1,16 @@
+{
+    "miningLevel": 4,
+    "durability": 10000,
+    "miningSpeed": 2.0,
+    "damage": 10.0,
+    "attackSpeedBonus": -1.2,
+    "enchantability": 2,
+    "toolHeadColor": 1908001,
+    "materialCategory": "stone",
+    "enchantmentAffinities": {
+      "minecraft:sharpness": 80,
+      "minecraft:efficiency": 1000,
+      "minecraft:unbreaking": -100,
+      "minecraft:fire_aspect": 500
+    }
+  }

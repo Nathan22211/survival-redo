@@ -1,0 +1,13 @@
+{
+    "miningLevel": 2,
+    "durability": 500,
+    "miningSpeed": 20.0,
+    "damage": 4.5,
+    "attackSpeedBonus": 1.0,
+    "enchantability": 30,
+    "toolHeadColor": 1827638,
+    "materialCategory": "gem",
+    "enchantmentAffinities": {
+        "minecraft:looting": 2000
+    }
+  }

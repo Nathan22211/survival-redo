@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "survival:random/dark_oak_planks"
+				
+			}
+		}
+	},
+	"rewards": {
+		"function": "survival:recipes_random/dark_oak_planks"
+	}
+}

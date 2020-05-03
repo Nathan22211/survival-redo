@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#n#",
+        "OGO",
+        "OEO"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:basalt"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "G": {
+            "item": "minecraft:gold_nugget"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        }
+    },
+    "result": {
+        "item": "minecraft:ender_chest",
+        "count": 1
+    }
+}

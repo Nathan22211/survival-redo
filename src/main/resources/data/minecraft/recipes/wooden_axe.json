@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#F",
+        "/ "
+    ],
+    "key": {
+        "#": {
+            "item": "survival:grass_vine"
+        },
+        "F": {
+            "item": "minecraft:flint"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:wooden_axe",
+        "count": 1
+    }
+}
