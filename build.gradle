@@ -10,16 +10,41 @@ archivesBaseName = project.archives_base_name
 version = project.mod_version
 group = project.maven_group
 
+repositories {
+	maven {
+		name = "CottonMC Releases"
+		url = "http://server.bbkr.space:8081/artifactory/libs-release"
+	}
+	maven {
+		name = "JitPack"
+		url = "https://jitpack.io"
+	}
+}
+
 dependencies {
 	//to change the versions see the gradle.properties file
-	minecraft "com.mojang:minecraft:20w18a"
-	mappings "net.fabricmc:yarn:20w18a+build.13:v2"
+	minecraft "com.mojang:minecraft:20w19a"
+	mappings "net.fabricmc:yarn:20w19a+build.5:v2"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
-	modImplementation "net.fabricmc.fabric-api:fabric-api:0.10.1+build.336-1.16"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:0.10.6+build.342-1.16"
+	//auto config for the config files
+	modApi "me.sargunvohra.mcmods:autoconfig1u:2.1.0"
+	include "me.sargunvohra.mcmods:autoconfig1u:2.1.0"
+	//cotton scripting for use with stuff like /attribute
+	modCompile 'io.github.cottonmc:cotton-scripting:2.0.0+1.15.2'
+	include 'io.github.cottonmc:cotton-scripting:2.0.0+1.15.2'
+	//artis for custom crafters
+	modApi "io.github.alloffabric:Artis:1.3.0+20w19a"
+	//NBT crafting and libCD for crafting
+	modApi "io.github.cottonmc:LibCD:2.4.0+20w17a"
+	include "io.github.cottonmc:LibCD:2.4.0+20w17a"
+	modImplementation "com.github.siphalor:nbt-crafting:1.16-2.0-SNAPSHOT"
+	include "com.github.siphalor:nbt-crafting:1.16-2.0-SNAPSHOT"
+	//shield lib for the corpses of animals
+	modImplementation "com.github.CrimsonDawn45:Fabric-Shield-Lib:${project.fabric_shield_lib_version}"
+	include "com.github.CrimsonDawn45:Fabric-Shield-Lib:${project.fabric_shield_lib_version}"
 
-	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
-	// You may need to force-disable transitiveness on them.
 }
 
 processResources {
@@ -70,7 +95,7 @@ publishing {
 
 	// select the repositories you want to publish to
 	repositories {
-		// uncomment to publish to the local maven
-		// mavenLocal()
 	}
 }
+		// uncomment to publish to the local maven
+		// mavenLocal()
