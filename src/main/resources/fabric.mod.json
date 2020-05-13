@@ -1,15 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "survival",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "survival",
   "authors": [
     "Nathan22211"
   ],
-  "contact": {
-    "homepage": "https://mcreator.net",
-    "sources": ""
-  },
   "environment": "*",
   "entrypoints": {
     "main": [

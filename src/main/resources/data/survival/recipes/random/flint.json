@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "minecraft:flint",
+        "item": "survival:flint",
         "count": 4
     }
 }

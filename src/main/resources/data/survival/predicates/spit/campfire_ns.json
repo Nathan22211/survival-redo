@@ -1,0 +1,75 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "block": "minecraft:campfire"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "offsetZ": 1,
+                    "predicate": {
+                        "block": {
+                            "tag": "minecraft:wooden_fences"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "offsetZ": -1,
+                    "predicate": {
+                        "block": {
+                            "tag": "minecraft:wooden_fences"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "offsetX": 0,
+                    "offsetY": 1,
+                    "offsetZ": 1,
+                    "predicate": {
+                        "block": {
+                            "tag": "minecraft:wooden_fences"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "offsetX": 0,
+                    "offsetY": 1,
+                    "offsetZ": -1,
+                    "predicate": {
+                        "block": {
+                            "tag": "minecraft:wooden_fences"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
